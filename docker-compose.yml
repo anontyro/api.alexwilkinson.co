@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api.alexwilkinson.co:
+    image: api.alexwilkinson.co
+    build:
+      context: ./api.alexwilkinson.co
+      dockerfile: Dockerfile
